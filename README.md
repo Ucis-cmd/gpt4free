@@ -35,10 +35,10 @@ By the way, thank you so much for `2k` stars and all the support!!
 
 - [ ] Add a GUI for the repo 
 - [ ] Make a general package named `openai_rev`, instead of different folders
-- [ ] Live api status to know which are down and which can be used
-- [ ] Integrate more API's in `./unfinished` as well as other ones in the lists
-- [ ] Make an API to use as proxy for other projects
-- [ ] Make a pypi package
+- [ ] Live API status to know which are down and which can be used
+- [ ] Integrate more APIs in `./unfinished` as well as other ones in the lists
+- [ ] Make an API to use as a proxy for other projects
+- [ ] Make a PyPi package
 
 ## Current Sites <a name="current-sites"></a>
 
@@ -59,24 +59,24 @@ By the way, thank you so much for `2k` stars and all the support!!
 
 #### gpt-4
 - [`/phind`](./ora/README.md) 
-- pro: only stable gpt-4 with streaming ( no limit )
-- contra: weird backend prompting 
-- why not `ora` anymore ? gpt-4 requires login + limited
+- Pro: only stable gpt-4 with streaming ( no limit )
+- Contra: weird backend prompting 
+- Why not `ora` anymore ? gpt-4 requires login + limited
 
 #### gpt-3.5
 - [`/ora`](./ora/README.md) 
-- only stable api at the moment ( for gpt-3.5, gpt-4 is dead)
+- Only stable API at the moment ( for gpt-3.5, gpt-4 is dead)
 
 ## Install  <a name="install"></a>
-download or clone this GitHub repo  
-install requirements with:
+Download or clone this GitHub repo  
+Install requirements with:
 ```sh
 pip3 install -r requirements.txt
 ```
 
 ## To start gpt4free GUI
-move `streamlit_app.py` from `./gui` to the base folder   
-then run:   
+Move `streamlit_app.py` from `./gui` to the base folder   
+Then run:   
 `streamlit run streamlit_app.py` or `python3 -m streamlit run streamlit_app.py`
 
 ## Docker
